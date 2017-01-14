@@ -1,0 +1,23 @@
+{
+  "name": "dip",
+  "version": "0.0.0",
+  "description": "Decorators only DI",
+  "main": "dip.js",
+  "author": {
+    "name": "kuan"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.8"
+  },
+  "devDependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/mocha": "^2.2.33",
+    "@types/sinon": "^1.16.32",
+    "chai": "3.5.0",
+    "mocha": "3.1.2",
+    "sinon": "^1.17.6"
+  },
+  "scripts": {
+    "test": "mocha dist_test/*"
+  }
+}
